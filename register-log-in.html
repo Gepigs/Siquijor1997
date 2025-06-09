@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" href="style.css">
+  <title>Siquojor Sweet & Fresh</title>
+   
+  <style>
+    main {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50rem;
+    }
+
+    .form-container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 30rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      margin-top: 10px;
+    }
+
+    .toggle {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .toggle a {
+      color: #4CAF50;
+      text-decoration: none;
+      cursor: pointer;
+      font-size:2rem;
+    }
+  span{
+    font-size: 2rem;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div>
+        <a href="index.html"><img src="logo.png"></a>
+      </div>     
+      <div>
+        <H1>Siquijor Sweet & Fresh</H1>
+        <p>Locally produce fruit</p>
+      </div>
+      <div class="create-acc">
+        <ul>
+          <li><a class="btn"href="register-log-in.html">Log in</a></li>
+          <li><a class="btn"href="register-log-in.html">Register</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <nav class="nav">
+      <ul class="nav-ul">
+        <li><a href="index.html">
+          Home
+        </a></li>
+        <li><a href="customer-care.html">
+          Customer Care
+        </a></li>
+        <li><a href="feedback.html">
+          Feedback
+        </a></li>
+        <li><a href="track-my-order.html">
+          Track my Order
+        </a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  <main>
+<div class="form-container">
+  <h2 id="form-title">Login</h2>
+  
+  <form onsubmit="handleForm(event)">
+    <input type="text" placeholder="Username" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+
+  <div class="toggle">
+    <p>
+      <span id="toggleText">Don't have an account?</span>
+      <a onclick="toggleForm()">Register</a>
+    </p>
+  </div>
+</div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
