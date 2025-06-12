@@ -61,6 +61,7 @@ body {
   letter-spacing: 5px;
   font-weight: bold;
   font-size: 1.3rem;
+  font-style: italic;
   text-align: center;
   margin-left: 9rem;
 }
@@ -96,7 +97,7 @@ body {
   font-size: 1.5rem;
   list-style: none;
   background: #A3958C;
-  gap: 6rem;
+  gap: 2rem;
   padding: 1.7rem;
 }
 .nav li a{
@@ -172,6 +173,7 @@ body {
   text-align: justify;
   margin: 5rem 2rem;
   font-size: 3rem;
+  font-style: italic;
   font-weight: bolder;
   background-color: whitesmoke;
   color: purple;
@@ -292,7 +294,7 @@ main .fruit{
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.fruit button{
+.fruit button:hover{
   background-color: #fb8c00;
 }
 .melon{
@@ -352,6 +354,14 @@ main .fruit{
   border-radius: .5rem;
   font-size: 2rem;
   text-align: center;
+}
+footer{
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+  margin-top: 3rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 48rem) {
