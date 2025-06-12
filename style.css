@@ -175,6 +175,7 @@ body {
   font-size: 3rem;
   font-style: italic;
   font-weight: bolder;
+  letter-spacing: -1px;
   background-color: whitesmoke;
   color: purple;
   padding: 5rem;
