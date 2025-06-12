@@ -276,7 +276,8 @@ main .fruit{
   font-size: 2rem;
 }
 .fruit img{
-  width: 50rem;
+  width: 100%;
+  height:100%;
 }
 .fruit h3{
   font-size: 3.2rem;
